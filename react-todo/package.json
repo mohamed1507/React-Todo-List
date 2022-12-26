@@ -1,10 +1,13 @@
 {
+  "homepage": "http://mohamed1507.github.io/React-Todo-List",
   "name": "react-todo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prdeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
